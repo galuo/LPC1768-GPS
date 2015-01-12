@@ -1,0 +1,12 @@
+.\Output\gps.o: ..\User\gps.c
+.\Output\gps.o: ..\User\gps.h
+.\Output\gps.o: ..\Libraries\CM3\DeviceSupport\NXP\LPC17xx\system_LPC17xx.h
+.\Output\gps.o: d:\Keil\ARM\RV31\Inc\stdint.h
+.\Output\gps.o: ..\User\uart.h
+.\Output\gps.o: ..\Libraries\CM3\DeviceSupport\NXP\LPC17xx\lpc17xx.h
+.\Output\gps.o: ..\Libraries\CM3\CoreSupport\core_cm3.h
+.\Output\gps.o: ..\Libraries\CM3\CoreSupport\core_cmInstr.h
+.\Output\gps.o: ..\Libraries\CM3\CoreSupport\core_cmFunc.h
+.\Output\gps.o: d:\Keil\ARM\RV31\Inc\stdarg.h
+.\Output\gps.o: d:\Keil\ARM\RV31\Inc\string.h
+.\Output\gps.o: d:\Keil\ARM\RV31\Inc\math.h

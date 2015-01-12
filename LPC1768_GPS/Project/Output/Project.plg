@@ -1,0 +1,241 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Administrator\Desktop\TouchPanel\Project\Project.uvproj
+Project File Date:  04/30/2014
+
+<h2>Output:</h2>
+Build target 'Open1786'
+compiling main.c...
+..\User\main.c(146): warning:  #223-D: function "sprintf" declared implicitly
+..\User\main.c(150): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+..\User\main.c(150): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+..\User\main.c(151): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+..\User\main.c(157): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+..\User\main.c(162): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+..\User\main.c(167): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+..\User\main.c(172): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+..\User\main.c(178): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+..\User\main.c(183): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+..\User\main.c(187): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+..\User\main.c(191): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+..\User\main.c(195): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+..\User\main.c(214): warning:  #223-D: function "sprintf" declared implicitly
+..\User\main.c(229): warning:  #111-D: statement is unreachable
+linking...
+Program Size: Code=27182 RO-data=2286 RW-data=352 ZI-data=3040  
+FromELF: creating hex file...
+".\Output\Project.axf" - 0 Error(s), 15 Warning(s).
+Load "C:\\Users\\Administrator\\Desktop\\TouchPanel\\Project\\Output\\Project.AXF" 
+* JLink Info: Device "LPC1768" selected (512 KB flash, 32 KB RAM).
+Set JLink Project File to "C:\Users\Administrator\Desktop\TouchPanel\Project\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.36l, compiled Dec  2 2011 18:52:36
+Firmware: J-Link ARM V8 compiled Dec  6 2011 18:57:44
+Hardware: V8.00
+S/N : 20090626 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+ 
+Target info:
+------------
+Device: LPC1768
+VTarget = 3.228V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 0, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+Application running ...
+Build target 'Open1786'
+compiling main.c...
+..\User\main.c(146): warning:  #223-D: function "sprintf" declared implicitly
+..\User\main.c(150): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+..\User\main.c(150): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+..\User\main.c(151): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+..\User\main.c(214): warning:  #223-D: function "sprintf" declared implicitly
+..\User\main.c(229): warning:  #111-D: statement is unreachable
+linking...
+Program Size: Code=26390 RO-data=2270 RW-data=332 ZI-data=3044  
+FromELF: creating hex file...
+".\Output\Project.axf" - 0 Error(s), 6 Warning(s).
+Load "C:\\Users\\Administrator\\Desktop\\TouchPanel\\Project\\Output\\Project.AXF" 
+* JLink Info: Device "LPC1768" selected (512 KB flash, 32 KB RAM).
+Set JLink Project File to "C:\Users\Administrator\Desktop\TouchPanel\Project\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.36l, compiled Dec  2 2011 18:52:36
+Firmware: J-Link ARM V8 compiled Dec  6 2011 18:57:44
+Hardware: V8.00
+S/N : 20090626 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+ 
+Target info:
+------------
+Device: LPC1768
+VTarget = 3.209V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 0, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+Application running ...
+Rebuild target 'Open1786'
+assembling startup_LPC17xx.s...
+compiling system_LPC17xx.c...
+compiling core_cm3.c...
+compiling lpc17xx_gpio.c...
+compiling debug_frmwrk.c...
+..\Libraries\LCP1768_StdPeriph_Driver\source\debug_frmwrk.c(242): warning:  #223-D: function "vsprintf" declared implicitly
+..\Libraries\LCP1768_StdPeriph_Driver\source\debug_frmwrk.c(240): warning:  #177-D: variable "tmp" was declared but never referenced
+compiling lpc17xx_uart.c...
+compiling lpc17xx_pinsel.c...
+compiling lpc17xx_clkpwr.c...
+compiling lpc17xx_ssp.c...
+compiling lpc17xx_spi.c...
+compiling main.c...
+..\User\main.c(147): warning:  #223-D: function "sprintf" declared implicitly
+..\User\main.c(149): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+..\User\main.c(149): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+..\User\main.c(156): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+..\User\main.c(156): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+..\User\main.c(161): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+..\User\main.c(166): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+..\User\main.c(171): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+..\User\main.c(177): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+..\User\main.c(182): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+..\User\main.c(186): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+..\User\main.c(190): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+..\User\main.c(194): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+..\User\main.c(213): warning:  #223-D: function "sprintf" declared implicitly
+..\User\main.c(228): warning:  #111-D: statement is unreachable
+compiling systen_delay.c...
+compiling ili_lcd_general.c...
+compiling isr_touch.c...
+compiling lcd_api.c...
+compiling touch_panel.c...
+..\User\touch\touch_panel.c(166): warning:  #223-D: function "sprintf" declared implicitly
+..\User\touch\touch_panel.c(181): warning:  #1-D: last line of file ends without a newline
+compiling english_16x8.c...
+compiling gprs.c...
+..\User\gprs.c(45): warning:  #177-D: function "func_send_AT_ATE0" was declared but never referenced
+..\User\gprs.c(56): warning:  #177-D: function "func_send_AT_CGATT" was declared but never referenced
+..\User\gprs.c(80): warning:  #177-D: function "func_send_AT_CGDCONT" was declared but never referenced
+..\User\gprs.c(104): warning:  #177-D: function "func_send_AT_CGRGE" was declared but never referenced
+..\User\gprs.c(127): warning:  #177-D: function "func_send_AT_ETCPIP" was declared but never referenced
+..\User\gprs.c(150): warning:  #177-D: function "func_send_AT_ETCPIP_Q" was declared but never referenced
+..\User\gprs.c(173): warning:  #177-D: function "func_send_AT_DNSR" was declared but never referenced
+..\User\gprs.c(196): warning:  #177-D: function "func_send_AT_IPOPEN" was declared but never referenced
+compiling gps.c...
+compiling uart.c...
+..\User\uart.c(82): warning:  #223-D: function "Gps_Msg_Show" declared implicitly
+linking...
+Program Size: Code=27154 RO-data=2286 RW-data=352 ZI-data=3040  
+FromELF: creating hex file...
+".\Output\Project.axf" - 0 Error(s), 28 Warning(s).
+Load "C:\\Users\\Administrator\\Desktop\\TouchPanel\\Project\\Output\\Project.AXF" 
+Load "C:\\Users\\Administrator\\Desktop\\TouchPanel\\Project\\Output\\Project.AXF" 
+* JLink Info: Device "LPC1768" selected (512 KB flash, 32 KB RAM).
+Set JLink Project File to "C:\Users\Administrator\Desktop\TouchPanel\Project\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.36l, compiled Dec  2 2011 18:52:36
+Firmware: J-Link ARM V8 compiled Dec  6 2011 18:57:44
+Hardware: V8.00
+S/N : 20090626 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+ 
+Target info:
+------------
+Device: LPC1768
+VTarget = 3.228V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 0, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+Application running ...
+Build target 'Open1786'
+compiling main.c...
+..\User\main.c(147): warning:  #223-D: function "sprintf" declared implicitly
+..\User\main.c(149): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+..\User\main.c(149): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+..\User\main.c(155): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+..\User\main.c(155): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+..\User\main.c(203): warning:  #223-D: function "sprintf" declared implicitly
+..\User\main.c(218): warning:  #111-D: statement is unreachable
+linking...
+Program Size: Code=27090 RO-data=2286 RW-data=352 ZI-data=3040  
+FromELF: creating hex file...
+".\Output\Project.axf" - 0 Error(s), 7 Warning(s).

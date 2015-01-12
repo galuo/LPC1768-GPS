@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+	<meta charset="utf-8">
+	<title>折线标记</title>
+    <style type="text/css">
+      html { height: 100% }
+      body { height: 100%; margin: 0; padding: 0 }
+      #map_canvas { height: 100% }
+	   #panel {
+        position: absolute;
+        top: 5px;
+        left: 10%;
+        margin-left: 0px;
+        z-index: 5;
+        background-color: #fff;
+        padding: 5px;
+        border: 1px solid #999;
+      }
+    </style>
+    <script type="text/javascript"
+      src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCTjuUIk2y2mcF67so4jTaIDty9qDAgZoU&sensor=true&libraries=geometry,places">
+    </script>
+    <script type="text/javascript">
+	var map;  //定义一个地图变量，全局变量
+	var markersArray = [];  //标记数组
+	var poly;  //线段
+	
+      function initialize() 
+	  {
+			var mapOptions = 
+			{
+				  center: myLatlng = new google.maps.LatLng(31.53604, 104.70020),  //设置中心点位置
+				  zoom: 14,  //设置缩放级别
+				  mapTypeId: google.maps.MapTypeId.SATELLITE  //设置地图显示类型
+			};
+			map = new google.maps.Map(document.getElementById("map_canvas"),mapOptions);
+			var polyOptions =
+			{
+				strokeColor: '#000000',
+				strokeOpacity: 1.0,
+				strokeWeight: 3
+			};
+			poly = new google.maps.Polyline(polyOptions);
+			poly.setMap(map);
+			google.maps.event.addListener(map, 'click', function(event) 
+			{
+				//addMarker(event.latLng);
+			});	
+	 }
+	 function addMarker(location) 
+	 {
+		  var path = poly.getPath();
+		  path.push(location);
+		  
+		  var myDate = new Date();
+//		myDate.getYear();      //获取当前年份(2位)
+//		myDate.getFullYear(); //获取完整的年份(4位,1970-????)
+//		myDate.getMonth();      //获取当前月份(0-11,0代表1月)
+//		myDate.getDate();      //获取当前日(1-31)
+//		myDate.getDay();        //获取当前星期X(0-6,0代表星期天)
+//		myDate.getTime();      //获取当前时间(从1970.1.1开始的毫秒数)
+//		myDate.getHours();      //获取当前小时数(0-23)
+//		myDate.getMinutes();    //获取当前分钟数(0-59)
+//		myDate.getSeconds();    //获取当前秒数(0-59)
+//		myDate.getMilliseconds(); //获取当前毫秒数(0-999)
+//		myDate.toLocaleDateString();    //获取当前日期
+//		var mytime=myDate.toLocaleTimeString();    //获取当前时间 
+//		myDate.toLocaleString( );      //获取日期与时间----如果涉及到时分秒，直接使用即可。
+		  marker = new google.maps.Marker(
+		  {
+				position: location,
+				title:myDate.toLocaleString() + '#' + path.getLength(),
+				map: map
+		  });
+		markersArray.push(marker);
+	}
+	function TOLatLng( m_latitude, m_longitude)
+	{
+		var m_My=new google.maps.LatLng(m_latitude, m_longitude);
+		map.panTo(m_My);
+		addMarker(m_My);
+	}
+	function clearOverlays() 
+	{
+		  if (markersArray) 
+		  {
+				for (i in markersArray) 
+				{
+				  markersArray[i].setMap(null);
+				}
+		  }
+	}
+	function deleteOverlays()
+	{
+		  if (markersArray) 
+		  {
+				for (i in markersArray) 
+				{
+					markersArray[i].setMap(null);
+				}
+				markersArray.length = 0;
+		  }
+	}
+	function showOverlays() 
+	{
+		  if (markersArray)
+		  {
+				for (i in markersArray)
+				{
+					markersArray[i].setMap(map);
+				}
+		  }
+	}
+    </script>
+  </head>
+  <body onload="initialize()">
+    <div id="map_canvas" style="width:100%; height:100%"></div>
+	<div id="panel">
+      <input onclick="clearOverlays();" type=button value="clearOverlays">
+      <input onclick="deleteOverlays();" type=button value="deleteOverlays">
+	  <input onclick="showOverlays();" type=button value="showOverlays">
+    </div>
+  </body>
+  
+</html>

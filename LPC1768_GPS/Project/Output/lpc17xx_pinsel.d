@@ -1,0 +1,9 @@
+.\Output\lpc17xx_pinsel.o: ..\Libraries\LCP1768_StdPeriph_Driver\source\lpc17xx_pinsel.c
+.\Output\lpc17xx_pinsel.o: ..\Libraries\LCP1768_StdPeriph_Driver\include\lpc17xx_pinsel.h
+.\Output\lpc17xx_pinsel.o: ..\Libraries\CM3\DeviceSupport\NXP\LPC17xx\lpc17xx.h
+.\Output\lpc17xx_pinsel.o: ..\Libraries\CM3\CoreSupport\core_cm3.h
+.\Output\lpc17xx_pinsel.o: d:\Keil\ARM\RV31\Inc\stdint.h
+.\Output\lpc17xx_pinsel.o: ..\Libraries\CM3\CoreSupport\core_cmInstr.h
+.\Output\lpc17xx_pinsel.o: ..\Libraries\CM3\CoreSupport\core_cmFunc.h
+.\Output\lpc17xx_pinsel.o: ..\Libraries\CM3\DeviceSupport\NXP\LPC17xx\system_LPC17xx.h
+.\Output\lpc17xx_pinsel.o: ..\Libraries\LCP1768_StdPeriph_Driver\include\lpc_types.h

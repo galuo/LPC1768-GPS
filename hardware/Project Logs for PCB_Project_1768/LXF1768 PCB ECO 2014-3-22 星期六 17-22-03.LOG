@@ -1,0 +1,23 @@
+Removed Pin From Net: NetName=P2_0 Pin=R13-2
+Removed Pin From Net: NetName=P2_1 Pin=R14-2
+Removed Pin From Net: NetName=P2_2 Pin=R15-2
+Removed Pin From Net: NetName=P2_3 Pin=R16-2
+Added Component: Designator=LED_P1(HDR2X4)
+Added Pin To Net: NetName=P2_0 Pin=LED_P1-2
+Added Pin To Net: NetName=P2_1 Pin=LED_P1-4
+Added Pin To Net: NetName=P2_2 Pin=LED_P1-6
+Added Pin To Net: NetName=P2_3 Pin=LED_P1-8
+Added Pin To Net: NetName=LED1 Pin=LED_P1-1
+Added Pin To Net: NetName=LED1 Pin=R13-2
+Added Net: Name=LED1
+Added Pin To Net: NetName=LED2 Pin=LED_P1-3
+Added Pin To Net: NetName=LED2 Pin=R14-2
+Added Net: Name=LED2
+Added Pin To Net: NetName=LED3 Pin=LED_P1-5
+Added Pin To Net: NetName=LED3 Pin=R15-2
+Added Net: Name=LED3
+Added Pin To Net: NetName=LED4 Pin=LED_P1-7
+Added Pin To Net: NetName=LED4 Pin=R16-2
+Added Net: Name=LED4
+Added Member To Class: ClassName=LXF1768 Member=Component LED_P1 Header 4X2
+Added Room: Name=LXF1768

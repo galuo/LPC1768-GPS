@@ -1,0 +1,4 @@
+Added Pin To Net: NetName=SWDIO Pin=P1-3
+Added Pin To Net: NetName=SWDCLK Pin=P1-5
+Added Member To Class: ClassName=LXF1768 Member=Component P2 Header 11X2
+Added Room: Name=LXF1768

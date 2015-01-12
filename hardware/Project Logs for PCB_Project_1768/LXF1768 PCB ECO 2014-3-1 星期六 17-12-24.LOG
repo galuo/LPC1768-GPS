@@ -1,0 +1,20 @@
+Added Component: Designator=LED1(LED_0603_BLUE)
+Added Component: Designator=LED2(LED_0603_BLUE)
+Added Component: Designator=LED3(LED_0603_BLUE)
+Added Component: Designator=LED4(LED_0603_BLUE)
+Added Component: Designator=VDD3.3(LED_0603_BLUE)
+Added Pin To Net: NetName=VDD3.3 Pin=LED1-1
+Added Pin To Net: NetName=NetLED1_2 Pin=LED1-2
+Added Pin To Net: NetName=VDD3.3 Pin=LED2-1
+Added Pin To Net: NetName=NetLED2_2 Pin=LED2-2
+Added Pin To Net: NetName=VDD3.3 Pin=LED3-1
+Added Pin To Net: NetName=NetLED3_2 Pin=LED3-2
+Added Pin To Net: NetName=VDD3.3 Pin=LED4-1
+Added Pin To Net: NetName=NetLED4_2 Pin=LED4-2
+Added Pin To Net: NetName=NetR12_2 Pin=VDD3.3-1
+Added Pin To Net: NetName=DGND Pin=VDD3.3-2
+Added Member To Class: ClassName=LXF1768 Member=Component LED1 PC2
+Added Member To Class: ClassName=LXF1768 Member=Component LED2 PC2
+Added Member To Class: ClassName=LXF1768 Member=Component LED3 PC2
+Added Member To Class: ClassName=LXF1768 Member=Component LED4 PC2
+Added Member To Class: ClassName=LXF1768 Member=Component VDD3.3 PC2

@@ -1,0 +1,13 @@
+.\Output\debug_frmwrk.o: ..\Libraries\LCP1768_StdPeriph_Driver\source\debug_frmwrk.c
+.\Output\debug_frmwrk.o: ..\Libraries\LCP1768_StdPeriph_Driver\include\debug_frmwrk.h
+.\Output\debug_frmwrk.o: d:\Keil\ARM\RV31\Inc\stdarg.h
+.\Output\debug_frmwrk.o: ..\Libraries\LCP1768_StdPeriph_Driver\include\lpc17xx_uart.h
+.\Output\debug_frmwrk.o: ..\Libraries\CM3\DeviceSupport\NXP\LPC17xx\LPC17xx.h
+.\Output\debug_frmwrk.o: ..\Libraries\CM3\CoreSupport\core_cm3.h
+.\Output\debug_frmwrk.o: d:\Keil\ARM\RV31\Inc\stdint.h
+.\Output\debug_frmwrk.o: ..\Libraries\CM3\CoreSupport\core_cmInstr.h
+.\Output\debug_frmwrk.o: ..\Libraries\CM3\CoreSupport\core_cmFunc.h
+.\Output\debug_frmwrk.o: ..\Libraries\CM3\DeviceSupport\NXP\LPC17xx\system_LPC17xx.h
+.\Output\debug_frmwrk.o: ..\Libraries\LCP1768_StdPeriph_Driver\include\lpc_types.h
+.\Output\debug_frmwrk.o: ..\Libraries\LCP1768_StdPeriph_Driver\include\lpc17xx_pinsel.h
+.\Output\debug_frmwrk.o: ..\User\lpc17xx_libcfg.h

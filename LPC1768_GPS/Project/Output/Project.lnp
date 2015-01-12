@@ -1,0 +1,4 @@
+--cpu Cortex-M3 ".\output\startup_lpc17xx.o" ".\output\system_lpc17xx.o" ".\output\core_cm3.o" ".\output\lpc17xx_gpio.o" ".\output\debug_frmwrk.o" ".\output\lpc17xx_uart.o" ".\output\lpc17xx_pinsel.o" ".\output\lpc17xx_clkpwr.o" ".\output\lpc17xx_ssp.o" ".\output\lpc17xx_spi.o" ".\output\main.o" ".\output\systen_delay.o" ".\output\ili_lcd_general.o" ".\output\isr_touch.o" ".\output\lcd_api.o" ".\output\touch_panel.o" ".\output\english_16x8.o" ".\output\gprs.o" ".\output\gps.o" ".\output\uart.o" --strict --scatter ".\Output\Project.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Listing\Project.map" -o ".\Output\Project.axf"

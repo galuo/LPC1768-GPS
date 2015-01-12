@@ -1,0 +1,14 @@
+.\Output\isr_touch.o: ..\User\touch\isr_touch.c
+.\Output\isr_touch.o: ..\User\touch\touch_panel.h
+.\Output\isr_touch.o: ..\User\lpc17xx_libcfg.h
+.\Output\isr_touch.o: ..\Libraries\LCP1768_StdPeriph_Driver\include\lpc_types.h
+.\Output\isr_touch.o: d:\Keil\ARM\RV31\Inc\stdint.h
+.\Output\isr_touch.o: ..\Libraries\LCP1768_StdPeriph_Driver\include\lpc17xx_pinsel.h
+.\Output\isr_touch.o: ..\Libraries\CM3\DeviceSupport\NXP\LPC17xx\lpc17xx.h
+.\Output\isr_touch.o: ..\Libraries\CM3\CoreSupport\core_cm3.h
+.\Output\isr_touch.o: ..\Libraries\CM3\CoreSupport\core_cmInstr.h
+.\Output\isr_touch.o: ..\Libraries\CM3\CoreSupport\core_cmFunc.h
+.\Output\isr_touch.o: ..\Libraries\CM3\DeviceSupport\NXP\LPC17xx\system_LPC17xx.h
+.\Output\isr_touch.o: ..\Libraries\LCP1768_StdPeriph_Driver\include\lpc17xx_gpio.h
+.\Output\isr_touch.o: ..\User\touch\ili_lcd_general.h
+.\Output\isr_touch.o: ..\User\touch\lcd_api.h
